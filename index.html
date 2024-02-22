@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+
+<!-- boostrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<!-- font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+<div class="container-fluid">
+  <!-- bg-hero -->
+  <section class="py-5 bg_hero">
+   <nav class="d-flex align-items-center">
+    <div class="brand">
+      <img src="./images/logo.svg" class="img-fluid col-7 col-md-12" alt="logo">
+    </div>
+    <div class="menus ms-auto">
+     <a href="#" class="no_text-decoration font-text me-3 text-VeryDarkBlue fs-5">Features</a>
+     <a href="#" class="no_text-decoration font-text me-3 text-VeryDarkBlue fs-5">Team</a>
+     <a href="#" class="no_text-decoration font-text me-3 text-VeryDarkBlue fs-5">Sign In</a>
+    </div>
+   </nav>
+   <main>
+    <div class="row mt-5 pt-5 pt-md-0 d-flex flex-row-reverse">
+      <!-- image -->
+      <div class="col-sm-6">
+        <img src="./images/illustration-1.svg" class="img-fluid" alt="illustration">
+      </div>
+      <!-- content -->
+      <div class="col-sm-6 align-self-center px-5 ">
+           <h1 class="font-title">All your files in one secure location, accessible anywhere.</h1>
+           <p class="font-text py-4 py-lg-0 col-md-9">Fylo stores your most important files in one secure location. 
+            Access them wherever you need, share and collaborate with friends, 
+            family, and co-workers.</p>
+            <div class="row">
+              <div class="col-12 col-sm-7">
+                <input type="text" class="p-2 ps-3 font-text" placeholder="Enter the email...">
+              </div>
+              <div class="col-12 col-sm-3">
+                <div class="d-grid gap2">
+                  <button class="btn btn-primary btn-md py-2 mt-3 mt-lg-0 font-title"> Get Started</button></div>
+              </div>
+            </div>             
+      </div>
+      
+    </div>
+   </main>
+  </section>
+  <!-- bg-hero end-->
+  <!-- page 2 -->
+  <section class="pt-5 page2 mt-lg-5">
+<div class="row d-flex flex-row-reverse mt-lg-5 pt-lg-5 bg-LightGrayishBlue">
+  <!-- image -->
+  <div class="col-sm-5 pt-5">
+       <img src="./images/illustration-2.svg" class="img-fluid" alt="illustration">
+  </div>
+  <!-- content -->
+  <div class="col-sm-6">
+   <h1 class="font-title content_title mt-5 mt-lg-0">Stay productive, wherever you are</h1>
+   <p class="font-text pt-4 col-sm-9">Never let location be an issue when accessing your files. Fylo has you 
+    covered for all of your file storage needs.</p>
+    <p class="font-text col-sm-9 mb-5 mb-lg-3">Securely share files and folders with friends, family and colleagues for 
+      live collaboration. No email attachments required!</p>
+      <a href="#" class="font-text">See how Fylo works <i class="fa-solid fa-circle-arrow-right text-success"></i></a>
+   <!-- user card -->
+      <div class="card col-sm-6 my-5">
+      <div class="card-body">
+        <img src="./images/icon-quotes.svg" width="25" alt="quotes">
+        <p class="font-text2">Fylo has improved our team productivity by an order of magnitude. Since 
+          making the switch our team has become a well-oiled collaboration machine.</p>
+      <div class="row">
+        <div class="col-2 col-sm-2"><img src="./images/avatar-testimonial.jpg" class="img-rounded" width="45px" alt="avatar"></div>
+        <div class="col-6 col-sm-9">
+          <strong class="font-title">Kyle Burton</strong>
+          <p class="font-text2 me-3">Founder & CEO, Huddle</p>
+        </div>
+      </div>
+        </div>
+    </div>
+  </div>
+</div>
+  </section>
+  <!-- page 2 end -->
+  <!-- get early access -->
+  <section class="py-5 text-white bg-DesaturatedBlue get_early_access">
+<div class="row p-4 ">
+  <div class="col-sm-5">
+    <h2 class="font-title">Get early access today</h2>
+    <p class="font-text2 pt-2 text-LightGray">It only takes a minute to sign up and our free starter tier is extremely generous. 
+      If you have any questions, our support team would be happy to help you.</p>
+  </div>
+  <div class="col-10 col-sm-4 ms-auto me-auto mt-4 mt-lg-0">
+    <div class="row">
+      <div class="col-12 col-sm-12">
+        <input type="text" class="p-2 ps-3 form-control font-text" placeholder="Enter the email...">
+      </div>
+      <div class="col-12 col-sm-6 mt-lg-3">
+        <div class="d-grid gap2">
+          <button class="btn btn-primary btn-md py-2 mt-3 mt-lg-0 font-title">Get Started For Free</button>
+        </div>
+      </div>
+    </div> 
+  </div>
+</div>
+  </section>
+   <!-- get early access end-->
+   <!-- contact us -->
+   <section class="p-5 bg-VeryDarkBlue text-LightGray contact_us">
+    <div class="row">
+      <div class="col-9 col-sm-4">
+        <img src="./images/logo.svg" class="white-image" alt="logo">
+        <div class="row mt-5 mt-lg-4">
+          <div class="col-1 col-sm-1">
+            <img src="./images/icon-phone.svg" alt="phone">
+          </div>
+          <div class="col-10 col-sm-10">
+            <p class="font-text2">Phone: +1-543-123-4567</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-1 col-sm-1">
+            <img src="./images/icon-email.svg" alt="phone">
+          </div>
+          <div class="col-9 col-sm-10">
+            <p class="font-text2">example@fylo.com</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="row pt-3 pt-lg-5 mt-3">
+          <div class="col-sm-6 mb-5 mb-lg-0 d-flex flex-column">
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text pb-2">About Us</a>
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text pb-2">Jobs</a>
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text pb-2">Press</a>
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text">Blog</a>
+          </div>
+          <div class="col-sm-6 d-flex flex-column">
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text pb-2">Contact Us</a>
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text pb-2">Terms</a>
+            <a href="#" class="no_text-decoration text-LightGray fs-5 font-text">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="col-sm-4 mt-4 mt-lg-5 ms-lg-5 pt-lg-5 justify-content-center align-self-center d-flex ">
+          <div class="circle bg-facebook"><i class="fa-brands fa-facebook-f text-white "></i></div>
+          <div class="circle ms-3 bg-twitter"> <i class="fa-brands fa-twitter text-white"></i></div>
+          <div class="circle ms-3 bg-instagram"><i class="fa-brands fa-instagram text-white"></i></div>
+        </div>
+      </div>
+    </div>
+   </section>
+</div>
+
+
+ 
+
+
+  
+  
+
+  
+  
+  
+  
+
+  
+  <footer>
+  <p class="attribution text-center">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sanjeev</a>.
+  </p>
+</footer>
+ 
+
+ <!-- javascript -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
